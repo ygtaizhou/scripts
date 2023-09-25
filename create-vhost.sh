@@ -20,7 +20,7 @@ set_default_dirname() {
 }
 
 create_config_file() {
-  file="$config_path/$server_name"
+  file="$config_path/$server_name.conf"
   template_file="$config_path/default"
   if [ -f $file ];then
     echo "file $file exists"

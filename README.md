@@ -5,6 +5,6 @@
 ## nginx-create
 create nginx vhost and restart nginx service
 ### usage
-- nginx-create -n test1.net
-- nginx-create -n test1.net -b
-- nginx-create -n test1.net -d static
+- create-vhosts -n test1.net
+- create-vhosts -n test1.net -b
+- create-vhosts -n test1.net -d static
